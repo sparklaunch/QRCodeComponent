@@ -16,6 +16,14 @@ struct Card: View {
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
+                Spacer()
+                    .frame(height: 30)
+                Text("Improve your front-end skills by building projects")
+                    .font(.custom("Outfit", size: 27))
+                    .fontWeight(.bold)
+                    .foregroundColor(Color("HeaderColor"))
+                    .fixedSize(horizontal: false, vertical: true)
+                    .multilineTextAlignment(.center)
             }
             .padding(20)
         }
