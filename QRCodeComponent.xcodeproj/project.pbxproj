@@ -14,6 +14,7 @@
 		9060DDC927EABAFD0043AD01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9060DDB727EABAFD0043AD01 /* Assets.xcassets */; };
 		9060DDCA27EABAFD0043AD01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9060DDB727EABAFD0043AD01 /* Assets.xcassets */; };
 		9060DDD527EABC070043AD01 /* Outfit.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9060DDD427EABC070043AD01 /* Outfit.ttf */; };
+		9060DDD927EABEB30043AD01 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9060DDD827EABEB30043AD01 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		9060DDC427EABAFD0043AD01 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		9060DDD427EABC070043AD01 /* Outfit.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Outfit.ttf; sourceTree = "<group>"; };
 		9060DDD627EABC2F0043AD01 /* QRCodeComponent--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "QRCodeComponent--iOS--Info.plist"; sourceTree = "<group>"; };
+		9060DDD827EABEB30043AD01 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		9060DDB427EABAFD0043AD01 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				9060DDD727EABEA70043AD01 /* Components */,
 				9060DDD327EABBF60043AD01 /* Fonts */,
 				9060DDB527EABAFD0043AD01 /* QRCodeComponentApp.swift */,
 				9060DDB627EABAFD0043AD01 /* ContentView.swift */,
@@ -89,6 +92,14 @@
 				9060DDD427EABC070043AD01 /* Outfit.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9060DDD727EABEA70043AD01 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9060DDD827EABEB30043AD01 /* Card.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9060DDC727EABAFD0043AD01 /* ContentView.swift in Sources */,
+				9060DDD927EABEB30043AD01 /* Card.swift in Sources */,
 				9060DDC527EABAFD0043AD01 /* QRCodeComponentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
