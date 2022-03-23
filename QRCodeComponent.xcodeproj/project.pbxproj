@@ -13,6 +13,7 @@
 		9060DDC827EABAFD0043AD01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9060DDB627EABAFD0043AD01 /* ContentView.swift */; };
 		9060DDC927EABAFD0043AD01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9060DDB727EABAFD0043AD01 /* Assets.xcassets */; };
 		9060DDCA27EABAFD0043AD01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9060DDB727EABAFD0043AD01 /* Assets.xcassets */; };
+		9060DDD527EABC070043AD01 /* Outfit.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9060DDD427EABC070043AD01 /* Outfit.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		9060DDBC27EABAFD0043AD01 /* QRCodeComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9060DDC227EABAFD0043AD01 /* QRCodeComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9060DDC427EABAFD0043AD01 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		9060DDD427EABC070043AD01 /* Outfit.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Outfit.ttf; sourceTree = "<group>"; };
+		9060DDD627EABC2F0043AD01 /* QRCodeComponent--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "QRCodeComponent--iOS--Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +48,7 @@
 		9060DDAF27EABAFD0043AD01 = {
 			isa = PBXGroup;
 			children = (
+				9060DDD627EABC2F0043AD01 /* QRCodeComponent--iOS--Info.plist */,
 				9060DDB427EABAFD0043AD01 /* Shared */,
 				9060DDC327EABAFD0043AD01 /* macOS */,
 				9060DDBD27EABAFD0043AD01 /* Products */,
@@ -54,6 +58,7 @@
 		9060DDB427EABAFD0043AD01 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				9060DDD327EABBF60043AD01 /* Fonts */,
 				9060DDB527EABAFD0043AD01 /* QRCodeComponentApp.swift */,
 				9060DDB627EABAFD0043AD01 /* ContentView.swift */,
 				9060DDB727EABAFD0043AD01 /* Assets.xcassets */,
@@ -76,6 +81,14 @@
 				9060DDC427EABAFD0043AD01 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		9060DDD327EABBF60043AD01 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9060DDD427EABC070043AD01 /* Outfit.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9060DDC927EABAFD0043AD01 /* Assets.xcassets in Resources */,
+				9060DDD527EABC070043AD01 /* Outfit.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +330,7 @@
 				DEVELOPMENT_TEAM = 862P2X6G9G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "QRCodeComponent--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -346,6 +361,7 @@
 				DEVELOPMENT_TEAM = 862P2X6G9G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "QRCodeComponent--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
